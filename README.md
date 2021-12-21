@@ -3,6 +3,4 @@
 kkb M1 港科技大学doc
 
 
-git is a distributed free software
-
-
+这个数据集设计到安全，不提供任何的数据集，只给出代码抽取IP地址和图的属性构建
