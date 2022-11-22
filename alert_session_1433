@@ -1,0 +1,1427 @@
+[**] [1:2403456:3385] ET CINS Active Threat Intelligence Poor Reputation IP TCP group 79 [**]
+[Classification: Misc Attack] [Priority: 2] 
+07/14-12:44:04.286922 82.221.105.7:20270 -> 192.168.2.152:3306
+TCP TTL:111 TOS:0x0 ID:6090 IpLen:20 DgmLen:44
+******S* Seq: 0x7BE3ED28  Ack: 0x0  Win: 0x382F  TcpLen: 24
+TCP Options (1) => MSS: 1412 
+[Xref => http://www.networkcloaking.com/cins][Xref => http://www.cinsscore.com]
+
+[**] [1:2010937:2] ET POLICY Suspicious inbound to mySQL port 3306 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-12:44:04.286922 82.221.105.7:20270 -> 192.168.2.152:3306
+TCP TTL:111 TOS:0x0 ID:6090 IpLen:20 DgmLen:44
+******S* Seq: 0x7BE3ED28  Ack: 0x0  Win: 0x382F  TcpLen: 24
+TCP Options (1) => MSS: 1412 
+[Xref => http://doc.emergingthreats.net/2010937]
+
+[**] [1:2010937:2] ET POLICY Suspicious inbound to mySQL port 3306 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-12:44:06.616258 82.221.105.7:36404 -> 192.168.2.152:3306
+TCP TTL:47 TOS:0x0 ID:20737 IpLen:20 DgmLen:60 DF
+******S* Seq: 0x60E2CF76  Ack: 0x0  Win: 0x3908  TcpLen: 40
+TCP Options (5) => MSS: 1412 SackOK TS: 952540791 0 NOP WS: 7 
+[Xref => http://doc.emergingthreats.net/2010937]
+
+[**] [1:2101411:12] GPL SNMP public access udp [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+07/14-12:53:28.226179 146.88.240.4:33967 -> 192.168.2.152:161
+UDP TTL:239 TOS:0x0 ID:54321 IpLen:20 DgmLen:68
+Len: 40
+[Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2002-0013][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=2002-0012][Xref => http://cve.mitre.org/cgi-bin/cvename.cgi?name=1999-0517][Xref => http://www.securityfocus.com/bid/4089][Xref => http://www.securityfocus.com/bid/4088][Xref => http://www.securityfocus.com/bid/2112]
+
+[**] [1:2500052:4266] ET COMPROMISED Known Compromised or Hostile Host Traffic TCP group 27 [**]
+[Classification: Misc Attack] [Priority: 2] 
+07/14-12:53:48.593375 222.178.216.126:13864 -> 192.168.2.152:1433
+TCP TTL:238 TOS:0x0 ID:62288 IpLen:20 DgmLen:44
+******S* Seq: 0x28E54432  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1412 
+[Xref => http://doc.emergingthreats.net/bin/view/Main/CompromisedHosts]
+
+[**] [1:2010935:2] ET POLICY Suspicious inbound to MSSQL port 1433 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-12:53:48.593375 222.178.216.126:13864 -> 192.168.2.152:1433
+TCP TTL:238 TOS:0x0 ID:62288 IpLen:20 DgmLen:44
+******S* Seq: 0x28E54432  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1412 
+[Xref => http://doc.emergingthreats.net/2010935]
+
+[**] [1:2402001:4374] ET DROP Dshield Block Listed Source group 1 [**]
+[Classification: Misc Attack] [Priority: 2] 
+07/14-12:54:11.294250 74.82.47.19:64782 -> 192.168.2.152:10001
+UDP TTL:50 TOS:0x0 ID:40491 IpLen:20 DgmLen:32 DF
+Len: 4
+[Xref => http://feeds.dshield.org/block.txt]
+
+[**] [1:2010935:2] ET POLICY Suspicious inbound to MSSQL port 1433 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-12:58:13.676739 185.70.189.82:53538 -> 192.168.2.152:1433
+TCP TTL:240 TOS:0x0 ID:5761 IpLen:20 DgmLen:44
+******S* Seq: 0x2E26C050  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1412 
+[Xref => http://doc.emergingthreats.net/2010935]
+
+[**] [1:2403498:3385] ET CINS Active Threat Intelligence Poor Reputation IP TCP group 100 [**]
+[Classification: Misc Attack] [Priority: 2] 
+07/14-12:59:49.460621 89.248.160.193:56588 -> 192.168.2.152:6390
+TCP TTL:238 TOS:0x0 ID:32388 IpLen:20 DgmLen:44
+******S* Seq: 0x3BF7B53A  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1412 
+[Xref => http://www.networkcloaking.com/cins][Xref => http://www.cinsscore.com]
+
+[**] [1:2400009:2584] ET DROP Spamhaus DROP Listed Traffic Inbound group 10 [**]
+[Classification: Misc Attack] [Priority: 2] 
+07/14-13:00:49.381480 134.209.187.43:47975 -> 192.168.2.152:29528
+TCP TTL:237 TOS:0x0 ID:28986 IpLen:20 DgmLen:44
+******S* Seq: 0xCEA1D12A  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1412 
+[Xref => http://www.spamhaus.org/drop/drop.lasso]
+
+[**] [1:2023448:2] ET TROJAN Possible Linux.Mirai Login Attempt (ubnt) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:00:53.837599 175.180.143.169:49869 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:11851 IpLen:20 DgmLen:46 DF
+***AP*** Seq: 0xD6B9EBAF  Ack: 0x2F4E3C48  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2023448:2] ET TROJAN Possible Linux.Mirai Login Attempt (ubnt) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:00:55.155341 175.180.143.169:49869 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:11853 IpLen:20 DgmLen:46 DF
+***AP*** Seq: 0xD6B9EBB8  Ack: 0x2F4E3C55  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:00:57.379603 192.168.2.152:23 -> 175.180.143.169:49869
+TCP TTL:64 TOS:0x0 ID:4010 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x2F4E3C55  Ack: 0xD6B9EBBE  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:21.225764 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:21990 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C5723  Ack: 0x65D296AD  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:22.296934 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:21995 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C5748  Ack: 0x65D296C0  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:22.875220 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:21999 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C576D  Ack: 0x65D296D4  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:23.457345 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:22003 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C5792  Ack: 0x65D296E5  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023442:2] ET TROJAN Possible Linux.Mirai Login Attempt (jvbzd) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:01:24.020163 175.180.143.169:50048 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:22697 IpLen:20 DgmLen:47 DF
+***AP*** Seq: 0x65D296EE  Ack: 0x405C57B7  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:24.028820 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:22007 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C57B7  Ack: 0x65D296F5  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023431:2] ET TROJAN Possible Linux.Mirai Login Attempt (54321) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:01:25.015435 175.180.143.169:50048 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:22701 IpLen:20 DgmLen:47 DF
+***AP*** Seq: 0x65D296FF  Ack: 0x405C57DC  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:25.049253 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:22011 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C57DC  Ack: 0x65D29706  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:26.037639 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:22016 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C5801  Ack: 0x65D2971A  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:26.611177 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:22020 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C5826  Ack: 0x65D2972C  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:27.197476 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:22024 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C584B  Ack: 0x65D2973C  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023437:2] ET TROJAN Possible Linux.Mirai Login Attempt (dreambox) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:01:27.785563 175.180.143.169:50048 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:22716 IpLen:20 DgmLen:50 DF
+***AP*** Seq: 0x65D29745  Ack: 0x405C5870  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:27.788069 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:22028 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C5870  Ack: 0x65D2974F  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:28.325396 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:22032 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C5895  Ack: 0x65D29760  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023435:2] ET TROJAN Possible Linux.Mirai Login Attempt (888888) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:01:28.517035 175.180.143.169:50048 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:22720 IpLen:20 DgmLen:48 DF
+***AP*** Seq: 0x65D29760  Ack: 0x405C58AD  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2023435:2] ET TROJAN Possible Linux.Mirai Login Attempt (888888) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:01:28.927372 175.180.143.169:50048 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:22722 IpLen:20 DgmLen:48 DF
+***AP*** Seq: 0x65D2976B  Ack: 0x405C58BA  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:28.931095 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:22036 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C58BA  Ack: 0x65D29773  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:29.465842 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:22040 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C58DF  Ack: 0x65D29787  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:30.059683 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:22044 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C5904  Ack: 0x65D29797  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:30.529666 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:22048 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C5929  Ack: 0x65D297AF  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:30.895464 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:22049 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C5929  Ack: 0x65D297AF  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023443:2] ET TROJAN Possible Linux.Mirai Login Attempt (klv123) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:01:31.494300 175.180.143.169:50048 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:22737 IpLen:20 DgmLen:48 DF
+***AP*** Seq: 0x65D297B8  Ack: 0x405C594E  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:31.497617 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:22053 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C594E  Ack: 0x65D297C0  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:32.083981 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:22057 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C5973  Ack: 0x65D297D0  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:32.636507 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:22061 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C5998  Ack: 0x65D297E0  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023436:2] ET TROJAN Possible Linux.Mirai Login Attempt (anko) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:01:33.203504 175.180.143.169:50048 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:22746 IpLen:20 DgmLen:46 DF
+***AP*** Seq: 0x65D297E9  Ack: 0x405C59BD  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:33.206364 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:22065 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C59BD  Ack: 0x65D297EF  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:33.771500 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:22069 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C59E2  Ack: 0x65D29800  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023432:2] ET TROJAN Possible Linux.Mirai Login Attempt (666666) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:01:34.734050 175.180.143.169:50048 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:22754 IpLen:20 DgmLen:48 DF
+***AP*** Seq: 0x65D29809  Ack: 0x405C5A07  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:34.737464 192.168.2.152:23 -> 175.180.143.169:50048
+TCP TTL:64 TOS:0x0 ID:22074 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x405C5A07  Ack: 0x65D29811  Win: 0xE5  TcpLen: 20
+
+[**] [1:2012296:1] ET VOIP Modified Sipvicious Asterisk PBX User-Agent [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+07/14-13:03:34.053006 62.210.146.235:5168 -> 192.168.2.152:5060
+UDP TTL:50 TOS:0x0 ID:14910 IpLen:20 DgmLen:441 DF
+Len: 413
+[Xref => http://blog.sipvicious.org/2010/11/distributed-sip-scanning-during.html]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:36.051046 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35177 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DE980  Ack: 0x12AF7E25  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:36.642961 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35181 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DE9A5  Ack: 0x12AF7E34  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:37.232002 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35185 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DE9CA  Ack: 0x12AF7E4D  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:37.829304 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35189 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DE9EF  Ack: 0x12AF7E60  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023447:2] ET TROJAN Possible Linux.Mirai Login Attempt (service) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:01:38.015456 175.180.143.169:50206 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:43063 IpLen:20 DgmLen:49 DF
+***AP*** Seq: 0x12AF7E60  Ack: 0xF24DEA07  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2023447:2] ET TROJAN Possible Linux.Mirai Login Attempt (service) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:01:38.420167 175.180.143.169:50206 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:43065 IpLen:20 DgmLen:49 DF
+***AP*** Seq: 0x12AF7E6C  Ack: 0xF24DEA14  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:38.422646 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35193 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DEA14  Ack: 0x12AF7E75  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:39.015881 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35197 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DEA39  Ack: 0x12AF7E84  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:40.005080 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35202 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DEA5E  Ack: 0x12AF7E93  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:40.623294 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35206 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DEA83  Ack: 0x12AF7EAE  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:41.140195 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35210 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DEAA8  Ack: 0x12AF7EC1  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:42.132231 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35215 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DEACD  Ack: 0x12AF7ECD  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:42.741106 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35219 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DEAF2  Ack: 0x12AF7EE2  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:43.317268 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35223 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DEB17  Ack: 0x12AF7EF0  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:43.925884 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35227 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DEB3C  Ack: 0x12AF7F04  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:44.480396 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35231 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DEB61  Ack: 0x12AF7F16  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:45.086872 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35235 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DEB86  Ack: 0x12AF7F26  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023431:2] ET TROJAN Possible Linux.Mirai Login Attempt (54321) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:01:45.644842 175.180.143.169:50206 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:43104 IpLen:20 DgmLen:47 DF
+***AP*** Seq: 0x12AF7F2F  Ack: 0xF24DEBAB  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:45.647658 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35239 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DEBAB  Ack: 0x12AF7F36  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023449:2] ET TROJAN Possible Linux.Mirai Login Attempt (vizxv) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:01:46.240174 175.180.143.169:50206 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:43107 IpLen:20 DgmLen:47 DF
+***AP*** Seq: 0x12AF7F3F  Ack: 0xF24DEBD0  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:46.243210 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35243 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DEBD0  Ack: 0x12AF7F46  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:46.816441 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35247 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DEBF5  Ack: 0x12AF7F5E  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:47.382252 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35251 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DEC1A  Ack: 0x12AF7F6E  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:47.977180 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35255 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DEC3F  Ack: 0x12AF7F7D  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:48.576836 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35259 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DEC64  Ack: 0x12AF7F90  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:49.198421 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35263 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DEC89  Ack: 0x12AF7FA9  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:50.234101 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35268 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DECAE  Ack: 0x12AF7FB4  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023441:2] ET TROJAN Possible Linux.Mirai Login Attempt (juantech) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:01:50.804425 175.180.143.169:50206 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:43131 IpLen:20 DgmLen:50 DF
+***AP*** Seq: 0x12AF7FBD  Ack: 0xF24DECD3  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:50.807225 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35272 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DECD3  Ack: 0x12AF7FC7  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:51.405832 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35276 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DECF8  Ack: 0x12AF7FDD  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:51.962822 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35280 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DED1D  Ack: 0x12AF7FEC  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:52.557060 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35284 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DED42  Ack: 0x12AF8001  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:53.158201 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35288 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DED67  Ack: 0x12AF8013  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:53.718150 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35292 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DED8C  Ack: 0x12AF8024  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023333:4] ET TROJAN Linux.Mirai Login Attempt (xc3511) [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+07/14-13:01:54.325203 175.180.143.169:50206 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:43149 IpLen:20 DgmLen:48 DF
+***AP*** Seq: 0x12AF802D  Ack: 0xF24DEDB1  Win: 0x1C5C  TcpLen: 20
+[Xref => http://www.flashpoint-intel.com/when-vulnerabilities-travel-downstream]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:54.328467 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35296 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DEDB1  Ack: 0x12AF8035  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023435:2] ET TROJAN Possible Linux.Mirai Login Attempt (888888) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:01:54.886535 175.180.143.169:50206 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:43152 IpLen:20 DgmLen:48 DF
+***AP*** Seq: 0x12AF803E  Ack: 0xF24DEDD6  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:54.890204 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35300 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DEDD6  Ack: 0x12AF8046  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023438:2] ET TROJAN Possible Linux.Mirai Login Attempt (fucker) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:01:55.509181 175.180.143.169:50206 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:43155 IpLen:20 DgmLen:48 DF
+***AP*** Seq: 0x12AF8051  Ack: 0xF24DEDFB  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:55.511822 192.168.2.152:23 -> 175.180.143.169:50206
+TCP TTL:64 TOS:0x0 ID:35304 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xF24DEDFB  Ack: 0x12AF8059  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:57.036100 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25830 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF92E9  Ack: 0x427A4904  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:57.628492 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25834 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF930E  Ack: 0x427A491A  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:58.210818 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25838 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF9333  Ack: 0x427A492D  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023450:2] ET TROJAN Possible Linux.Mirai Login Attempt (xmhdipc) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:01:59.204570 175.180.143.169:50388 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:38574 IpLen:20 DgmLen:49 DF
+***AP*** Seq: 0x427A4936  Ack: 0x10DF9358  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:59.207152 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25843 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF9358  Ack: 0x427A493F  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:01:59.790331 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25847 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF937D  Ack: 0x427A4954  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023444:2] ET TROJAN Possible Linux.Mirai Login Attempt (klv1234) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:02:00.394178 175.180.143.169:50388 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:38581 IpLen:20 DgmLen:49 DF
+***AP*** Seq: 0x427A495D  Ack: 0x10DF93A2  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:00.397482 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25851 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF93A2  Ack: 0x427A4966  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:00.986789 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25855 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF93C7  Ack: 0x427A4976  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:01.556782 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25859 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF93EC  Ack: 0x427A4989  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:01.943415 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25860 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF93EC  Ack: 0x427A4989  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023452:2] ET TROJAN Possible Linux.Mirai Login Attempt (Zte521) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:02:02.928315 175.180.143.169:50388 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:38594 IpLen:20 DgmLen:48 DF
+***AP*** Seq: 0x427A4992  Ack: 0x10DF9411  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:02.931141 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25864 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF9411  Ack: 0x427A499A  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:03.732610 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25868 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF9436  Ack: 0x427A49AB  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023434:2] ET TROJAN Possible Linux.Mirai Login Attempt (7ujMko0vizxv) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:02:04.308571 175.180.143.169:50388 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:38600 IpLen:20 DgmLen:54 DF
+***AP*** Seq: 0x427A49B4  Ack: 0x10DF945B  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:04.311542 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25873 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF945B  Ack: 0x427A49C2  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:04.908961 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25877 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF9480  Ack: 0x427A49D4  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:05.478592 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25881 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF94A5  Ack: 0x427A49E5  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023440:2] ET TROJAN Possible Linux.Mirai Login Attempt (ikwb) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:02:06.071239 175.180.143.169:50388 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:38609 IpLen:20 DgmLen:46 DF
+***AP*** Seq: 0x427A49EE  Ack: 0x10DF94CA  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:06.073899 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25885 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF94CA  Ack: 0x427A49F4  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:06.616540 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25889 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF94EF  Ack: 0x427A4A10  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:07.201042 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25893 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF9514  Ack: 0x427A4A22  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:07.763029 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25897 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF9539  Ack: 0x427A4A32  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023433:2] ET TROJAN Possible Linux.Mirai Login Attempt (7ujMko0admin) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:02:08.354667 175.180.143.169:50388 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:38621 IpLen:20 DgmLen:54 DF
+***AP*** Seq: 0x427A4A3C  Ack: 0x10DF955E  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:08.357830 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25901 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF955E  Ack: 0x427A4A4A  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023430:2] ET TROJAN Possible Linux.Mirai Login Attempt (1111111) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:02:08.931087 175.180.143.169:50388 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:38624 IpLen:20 DgmLen:49 DF
+***AP*** Seq: 0x427A4A54  Ack: 0x10DF9583  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:08.934376 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25905 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF9583  Ack: 0x427A4A5D  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023433:2] ET TROJAN Possible Linux.Mirai Login Attempt (7ujMko0admin) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:02:09.509525 175.180.143.169:50388 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:38627 IpLen:20 DgmLen:54 DF
+***AP*** Seq: 0x427A4A66  Ack: 0x10DF95A8  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:09.512807 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25909 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF95A8  Ack: 0x427A4A74  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:10.121904 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25913 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF95CD  Ack: 0x427A4A88  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:10.689600 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25917 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF95F2  Ack: 0x427A4A9D  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:11.067461 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25918 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF95F2  Ack: 0x427A4A9D  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023445:2] ET TROJAN Possible Linux.Mirai Login Attempt (meinsm) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:02:11.676531 175.180.143.169:50388 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:38639 IpLen:20 DgmLen:48 DF
+***AP*** Seq: 0x427A4AA7  Ack: 0x10DF9617  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:11.679848 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25922 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF9617  Ack: 0x427A4AAF  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:12.656720 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25927 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF963C  Ack: 0x427A4AC4  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:13.592216 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25931 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF9661  Ack: 0x427A4AD4  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023446:2] ET TROJAN Possible Linux.Mirai Login Attempt (realtek) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:02:14.155570 175.180.143.169:50388 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:38652 IpLen:20 DgmLen:49 DF
+***AP*** Seq: 0x427A4ADD  Ack: 0x10DF9686  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:14.158541 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25935 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF9686  Ack: 0x427A4AE6  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:14.734863 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25939 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF96AB  Ack: 0x427A4AF5  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023439:2] ET TROJAN Possible Linux.Mirai Login Attempt (hi3518) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:02:15.295758 175.180.143.169:50388 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:38658 IpLen:20 DgmLen:48 DF
+***AP*** Seq: 0x427A4AFE  Ack: 0x10DF96D0  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:15.298338 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25943 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF96D0  Ack: 0x427A4B06  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:15.873858 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25947 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF96F5  Ack: 0x427A4B19  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:16.835659 192.168.2.152:23 -> 175.180.143.169:50388
+TCP TTL:64 TOS:0x0 ID:25952 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x10DF971A  Ack: 0x427A4B2A  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:18.492153 192.168.2.152:23 -> 175.180.143.169:50569
+TCP TTL:64 TOS:0x0 ID:21398 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x3D76E644  Ack: 0xBE5777BC  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:19.060180 192.168.2.152:23 -> 175.180.143.169:50569
+TCP TTL:64 TOS:0x0 ID:21402 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x3D76E669  Ack: 0xBE5777D1  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:19.634611 192.168.2.152:23 -> 175.180.143.169:50569
+TCP TTL:64 TOS:0x0 ID:21406 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x3D76E68E  Ack: 0xBE5777E1  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:20.199664 192.168.2.152:23 -> 175.180.143.169:50569
+TCP TTL:64 TOS:0x0 ID:21410 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x3D76E6B3  Ack: 0xBE5777F2  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023432:2] ET TROJAN Possible Linux.Mirai Login Attempt (666666) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:02:20.373840 175.180.143.169:50569 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:37151 IpLen:20 DgmLen:48 DF
+***AP*** Seq: 0xBE5777F2  Ack: 0x3D76E6CB  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2023432:2] ET TROJAN Possible Linux.Mirai Login Attempt (666666) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:02:20.787127 175.180.143.169:50569 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:37153 IpLen:20 DgmLen:48 DF
+***AP*** Seq: 0xBE5777FD  Ack: 0x3D76E6D8  Win: 0x1C5C  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:02:20.790881 192.168.2.152:23 -> 175.180.143.169:50569
+TCP TTL:64 TOS:0x0 ID:21414 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0x3D76E6D8  Ack: 0xBE577805  Win: 0xE5  TcpLen: 20
+
+[**] [1:2010935:2] ET POLICY Suspicious inbound to MSSQL port 1433 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:07:10.093139 123.118.78.41:37060 -> 192.168.2.152:1433
+TCP TTL:116 TOS:0x0 ID:25828 IpLen:20 DgmLen:48 DF
+******S* Seq: 0xD0508715  Ack: 0x0  Win: 0x2000  TcpLen: 28
+TCP Options (4) => MSS: 1280 NOP NOP SackOK 
+[Xref => http://doc.emergingthreats.net/2010935]
+
+[**] [1:2010935:2] ET POLICY Suspicious inbound to MSSQL port 1433 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:07:10.098082 123.118.78.41:37061 -> 192.168.2.152:1433
+TCP TTL:116 TOS:0x0 ID:25844 IpLen:20 DgmLen:48 DF
+******S* Seq: 0x2E5D3D2B  Ack: 0x0  Win: 0x2000  TcpLen: 28
+TCP Options (4) => MSS: 1280 NOP NOP SackOK 
+[Xref => http://doc.emergingthreats.net/2010935]
+
+[**] [1:2010935:2] ET POLICY Suspicious inbound to MSSQL port 1433 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:07:10.836542 123.118.78.41:37957 -> 192.168.2.152:1433
+TCP TTL:116 TOS:0x0 ID:29041 IpLen:20 DgmLen:48 DF
+******S* Seq: 0x863E3D6  Ack: 0x0  Win: 0x2000  TcpLen: 28
+TCP Options (4) => MSS: 1280 NOP NOP SackOK 
+[Xref => http://doc.emergingthreats.net/2010935]
+
+[**] [1:2011716:4] ET SCAN Sipvicious User-Agent Detected (friendly-scanner) [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+07/14-13:19:06.325844 77.247.109.76:5077 -> 192.168.2.152:5060
+UDP TTL:49 TOS:0x0 ID:3697 IpLen:20 DgmLen:444 DF
+Len: 416
+[Xref => http://doc.emergingthreats.net/2011716][Xref => http://blog.sipvicious.org/][Xref => http://code.google.com/p/sipvicious/]
+
+[**] [1:2008578:6] ET SCAN Sipvicious Scan [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+07/14-13:19:06.325844 77.247.109.76:5077 -> 192.168.2.152:5060
+UDP TTL:49 TOS:0x0 ID:3697 IpLen:20 DgmLen:444 DF
+Len: 416
+[Xref => http://doc.emergingthreats.net/2008578][Xref => http://blog.sipvicious.org]
+
+[**] [1:2003068:6] ET SCAN Potential SSH Scan OUTBOUND [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+07/14-13:24:33.459610 88.214.26.90:32934 -> 192.168.2.152:22
+TCP TTL:50 TOS:0x0 ID:54503 IpLen:20 DgmLen:60 DF
+******S* Seq: 0xBCEA69CD  Ack: 0x0  Win: 0x7210  TcpLen: 40
+TCP Options (5) => MSS: 1412 SackOK TS: 3714571264 0 NOP WS: 10 
+[Xref => http://doc.emergingthreats.net/2003068][Xref => http://en.wikipedia.org/wiki/Brute_force_attack]
+
+[**] [1:2001219:19] ET SCAN Potential SSH Scan [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+07/14-13:24:33.459610 88.214.26.90:32934 -> 192.168.2.152:22
+TCP TTL:50 TOS:0x0 ID:54503 IpLen:20 DgmLen:60 DF
+******S* Seq: 0xBCEA69CD  Ack: 0x0  Win: 0x7210  TcpLen: 40
+TCP Options (5) => MSS: 1412 SackOK TS: 3714571264 0 NOP WS: 10 
+[Xref => http://doc.emergingthreats.net/2001219][Xref => http://en.wikipedia.org/wiki/Brute_force_attack]
+
+[**] [1:2010936:2] ET POLICY Suspicious inbound to Oracle SQL port 1521 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:28:19.059177 192.35.169.26:38967 -> 192.168.2.152:1521
+TCP TTL:32 TOS:0x0 ID:8262 IpLen:20 DgmLen:44
+******S* Seq: 0x1A601AE0  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1412 
+[Xref => http://doc.emergingthreats.net/2010936]
+
+[**] [1:2010935:2] ET POLICY Suspicious inbound to MSSQL port 1433 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:28:52.789914 210.12.45.130:57694 -> 192.168.2.152:1433
+TCP TTL:246 TOS:0x0 ID:33876 IpLen:20 DgmLen:44
+******S* Seq: 0x7D9D5285  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1412 
+[Xref => http://doc.emergingthreats.net/2010935]
+
+[**] [1:2400009:2584] ET DROP Spamhaus DROP Listed Traffic Inbound group 10 [**]
+[Classification: Misc Attack] [Priority: 2] 
+07/14-13:32:12.362022 134.209.63.140:48083 -> 192.168.2.152:10735
+TCP TTL:240 TOS:0x0 ID:31828 IpLen:20 DgmLen:44
+******S* Seq: 0xAA0C86F3  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1412 
+[Xref => http://www.spamhaus.org/drop/drop.lasso]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:23.675323 192.168.2.152:23 -> 75.74.7.227:33546
+TCP TTL:64 TOS:0x0 ID:34910 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xB63E0170  Ack: 0x3ADE908  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:24.704988 192.168.2.152:23 -> 75.74.7.227:33546
+TCP TTL:64 TOS:0x0 ID:34914 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xB63E0195  Ack: 0x3ADE91D  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:25.754149 192.168.2.152:23 -> 75.74.7.227:33546
+TCP TTL:64 TOS:0x0 ID:34918 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xB63E01BA  Ack: 0x3ADE935  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:26.789038 192.168.2.152:23 -> 75.74.7.227:33546
+TCP TTL:64 TOS:0x0 ID:34922 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xB63E01DF  Ack: 0x3ADE94A  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023446:2] ET TROJAN Possible Linux.Mirai Login Attempt (realtek) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:32:28.360882 75.74.7.227:33546 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:15464 IpLen:20 DgmLen:49 DF
+***AP*** Seq: 0x3ADE953  Ack: 0xB63E0204  Win: 0x721  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:28.363791 192.168.2.152:23 -> 75.74.7.227:33546
+TCP TTL:64 TOS:0x0 ID:34927 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xB63E0204  Ack: 0x3ADE95C  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023447:2] ET TROJAN Possible Linux.Mirai Login Attempt (service) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:32:28.688496 75.74.7.227:33546 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:15466 IpLen:20 DgmLen:49 DF
+***AP*** Seq: 0x3ADE95C  Ack: 0xB63E021C  Win: 0x721  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2023447:2] ET TROJAN Possible Linux.Mirai Login Attempt (service) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:32:29.916111 75.74.7.227:33546 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:15469 IpLen:20 DgmLen:49 DF
+***AP*** Seq: 0x3ADE968  Ack: 0xB63E0229  Win: 0x721  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:29.919250 192.168.2.152:23 -> 75.74.7.227:33546
+TCP TTL:64 TOS:0x0 ID:34932 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xB63E0229  Ack: 0x3ADE971  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023450:2] ET TROJAN Possible Linux.Mirai Login Attempt (xmhdipc) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:32:30.938360 75.74.7.227:33546 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:15472 IpLen:20 DgmLen:49 DF
+***AP*** Seq: 0x3ADE97A  Ack: 0xB63E024E  Win: 0x721  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:30.953888 192.168.2.152:23 -> 75.74.7.227:33546
+TCP TTL:64 TOS:0x0 ID:34936 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xB63E024E  Ack: 0x3ADE983  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:31.982945 192.168.2.152:23 -> 75.74.7.227:33546
+TCP TTL:64 TOS:0x0 ID:34940 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xB63E0273  Ack: 0x3ADE998  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023430:2] ET TROJAN Possible Linux.Mirai Login Attempt (1111111) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:32:32.977592 75.74.7.227:33546 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:15478 IpLen:20 DgmLen:49 DF
+***AP*** Seq: 0x3ADE9A2  Ack: 0xB63E0298  Win: 0x721  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:32.981441 192.168.2.152:23 -> 75.74.7.227:33546
+TCP TTL:64 TOS:0x0 ID:34944 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xB63E0298  Ack: 0x3ADE9AB  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023333:4] ET TROJAN Linux.Mirai Login Attempt (xc3511) [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+07/14-13:32:33.995426 75.74.7.227:33546 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:15481 IpLen:20 DgmLen:48 DF
+***AP*** Seq: 0x3ADE9B4  Ack: 0xB63E02BD  Win: 0x721  TcpLen: 20
+[Xref => http://www.flashpoint-intel.com/when-vulnerabilities-travel-downstream]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:33.998154 192.168.2.152:23 -> 75.74.7.227:33546
+TCP TTL:64 TOS:0x0 ID:34948 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xB63E02BD  Ack: 0x3ADE9BC  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023438:2] ET TROJAN Possible Linux.Mirai Login Attempt (fucker) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:32:35.565388 75.74.7.227:33546 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:15485 IpLen:20 DgmLen:48 DF
+***AP*** Seq: 0x3ADE9C7  Ack: 0xB63E02E2  Win: 0x721  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:35.568086 192.168.2.152:23 -> 75.74.7.227:33546
+TCP TTL:64 TOS:0x0 ID:34952 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xB63E02E2  Ack: 0x3ADE9CF  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:36.558894 192.168.2.152:23 -> 75.74.7.227:33546
+TCP TTL:64 TOS:0x0 ID:34956 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xB63E0307  Ack: 0x3ADE9DE  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023435:2] ET TROJAN Possible Linux.Mirai Login Attempt (888888) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:32:36.850991 75.74.7.227:33546 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:15489 IpLen:20 DgmLen:48 DF
+***AP*** Seq: 0x3ADE9DE  Ack: 0xB63E031F  Win: 0x721  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2023435:2] ET TROJAN Possible Linux.Mirai Login Attempt (888888) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:32:37.545481 75.74.7.227:33546 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:15491 IpLen:20 DgmLen:48 DF
+***AP*** Seq: 0x3ADE9E9  Ack: 0xB63E032C  Win: 0x721  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:37.548927 192.168.2.152:23 -> 75.74.7.227:33546
+TCP TTL:64 TOS:0x0 ID:34960 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xB63E032C  Ack: 0x3ADE9F1  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:39.073964 192.168.2.152:23 -> 75.74.7.227:33546
+TCP TTL:64 TOS:0x0 ID:34964 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xB63E0351  Ack: 0x3ADEA02  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:40.128363 192.168.2.152:23 -> 75.74.7.227:33546
+TCP TTL:64 TOS:0x0 ID:34968 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xB63E0376  Ack: 0x3ADEA16  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:41.171671 192.168.2.152:23 -> 75.74.7.227:33546
+TCP TTL:64 TOS:0x0 ID:34972 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xB63E039B  Ack: 0x3ADEA29  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:42.149557 192.168.2.152:23 -> 75.74.7.227:33546
+TCP TTL:64 TOS:0x0 ID:34976 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xB63E03C0  Ack: 0x3ADEA3E  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:44.279916 192.168.2.152:23 -> 75.74.7.227:33652
+TCP TTL:64 TOS:0x0 ID:20734 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xA1955A03  Ack: 0xC1A56673  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:45.210576 192.168.2.152:23 -> 75.74.7.227:33652
+TCP TTL:64 TOS:0x0 ID:20738 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xA1955A28  Ack: 0xC1A56685  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:46.155413 192.168.2.152:23 -> 75.74.7.227:33652
+TCP TTL:64 TOS:0x0 ID:20742 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xA1955A4D  Ack: 0xC1A5669B  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:47.094713 192.168.2.152:23 -> 75.74.7.227:33652
+TCP TTL:64 TOS:0x0 ID:20746 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xA1955A72  Ack: 0xC1A566AC  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:48.006821 192.168.2.152:23 -> 75.74.7.227:33652
+TCP TTL:64 TOS:0x0 ID:20750 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xA1955A97  Ack: 0xC1A566BC  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:48.946611 192.168.2.152:23 -> 75.74.7.227:33652
+TCP TTL:64 TOS:0x0 ID:20754 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xA1955ABC  Ack: 0xC1A566CD  Win: 0xE5  TcpLen: 20
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:50.360455 192.168.2.152:23 -> 75.74.7.227:33652
+TCP TTL:64 TOS:0x0 ID:20758 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xA1955AE1  Ack: 0xC1A566E8  Win: 0xE5  TcpLen: 20
+
+[**] [1:2023439:2] ET TROJAN Possible Linux.Mirai Login Attempt (hi3518) [**]
+[Classification: Attempted Administrator Privilege Gain] [Priority: 1] 
+07/14-13:32:51.277978 75.74.7.227:33652 -> 192.168.2.152:23
+TCP TTL:45 TOS:0x0 ID:47862 IpLen:20 DgmLen:48 DF
+***AP*** Seq: 0xC1A566F1  Ack: 0xA1955B06  Win: 0x721  TcpLen: 20
+[Xref => http://krebsonsecurity.com/2016/10/who-makes-the-iot-things-under-attack]
+
+[**] [1:2101251:11] GPL TELNET Bad Login [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:32:51.281341 192.168.2.152:23 -> 75.74.7.227:33652
+TCP TTL:64 TOS:0x0 ID:20762 IpLen:20 DgmLen:64 DF
+***AP*** Seq: 0xA1955B06  Ack: 0xC1A566F9  Win: 0xE5  TcpLen: 20
+
+[**] [1:2010935:2] ET POLICY Suspicious inbound to MSSQL port 1433 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:38:34.952520 124.225.62.62:44834 -> 192.168.2.152:1433
+TCP TTL:238 TOS:0x0 ID:35315 IpLen:20 DgmLen:44
+******S* Seq: 0x98535F22  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1412 
+[Xref => http://doc.emergingthreats.net/2010935]
+
+[**] [1:2010935:2] ET POLICY Suspicious inbound to MSSQL port 1433 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:38:35.780501 124.225.62.62:63484 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29479 IpLen:20 DgmLen:48 DF
+******S* Seq: 0x518F55EC  Ack: 0x0  Win: 0x4000  TcpLen: 28
+TCP Options (4) => MSS: 1412 NOP NOP SackOK 
+[Xref => http://doc.emergingthreats.net/2010935]
+
+[**] [1:2010935:2] ET POLICY Suspicious inbound to MSSQL port 1433 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:38:36.935852 124.225.62.62:63493 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29540 IpLen:20 DgmLen:48 DF
+******S* Seq: 0x2EFEBC87  Ack: 0x0  Win: 0x4000  TcpLen: 28
+TCP Options (4) => MSS: 1412 NOP NOP SackOK 
+[Xref => http://doc.emergingthreats.net/2010935]
+
+[**] [1:2010935:2] ET POLICY Suspicious inbound to MSSQL port 1433 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:38:36.273052 124.225.62.62:63488 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29503 IpLen:20 DgmLen:48 DF
+******S* Seq: 0x714879FF  Ack: 0x0  Win: 0x4000  TcpLen: 28
+TCP Options (4) => MSS: 1412 NOP NOP SackOK 
+[Xref => http://doc.emergingthreats.net/2010935]
+
+[**] [1:5000001:1] Contains sensitive to microl office [**]
+[Priority: 0] 
+07/14-13:38:36.327323 124.225.62.62:63488 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29507 IpLen:20 DgmLen:552 DF
+***AP*** Seq: 0x71487A00  Ack: 0x5FBF3A40  Win: 0x4230  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKingsbotnet.0.pdf]
+
+[**] [1:2010937:2] ET POLICY Suspicious inbound to mySQL port 3306 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:40:26.143467 43.245.222.163:20270 -> 192.168.2.152:3306
+TCP TTL:114 TOS:0x0 ID:47194 IpLen:20 DgmLen:44
+******S* Seq: 0x30A8F556  Ack: 0x0  Win: 0x234E  TcpLen: 24
+TCP Options (1) => MSS: 1412 
+[Xref => http://doc.emergingthreats.net/2010937]
+
+[**] [1:2010937:2] ET POLICY Suspicious inbound to mySQL port 3306 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:40:27.461878 43.245.222.163:36018 -> 192.168.2.152:3306
+TCP TTL:50 TOS:0x0 ID:46667 IpLen:20 DgmLen:60 DF
+******S* Seq: 0x39AD7D57  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1412 SackOK TS: 1120601045 0 NOP WS: 7 
+[Xref => http://doc.emergingthreats.net/2010937]
+
+[**] [1:2010935:2] ET POLICY Suspicious inbound to MSSQL port 1433 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:38:37.324175 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29555 IpLen:20 DgmLen:48 DF
+******S* Seq: 0x95032A62  Ack: 0x0  Win: 0x4000  TcpLen: 28
+TCP Options (4) => MSS: 1412 NOP NOP SackOK 
+[Xref => http://doc.emergingthreats.net/2010935]
+
+[**] [1:5000001:1] Contains sensitive to microl office [**]
+[Priority: 0] 
+07/14-13:38:37.383789 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29560 IpLen:20 DgmLen:552 DF
+***AP*** Seq: 0x95032A63  Ack: 0x545CA3E8  Win: 0x4230  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKingsbotnet.0.pdf]
+
+[**] [1:5000002:1] Contains database console commands for Microsoft SQL Server [**]
+[Priority: 0] 
+07/14-13:38:42.462731 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29777 IpLen:20 DgmLen:303 DF
+***AP*** Seq: 0x95032EAF  Ack: 0x545CA4DC  Win: 0x413C  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000002:1] Contains database console commands for Microsoft SQL Server [**]
+[Priority: 0] 
+07/14-13:38:44.823790 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29825 IpLen:20 DgmLen:552 DF
+***AP*** Seq: 0x950330EC  Ack: 0x545CA520  Win: 0x40F8  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000002:1] Contains database console commands for Microsoft SQL Server [**]
+[Priority: 0] 
+07/14-13:38:48.659241 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29883 IpLen:20 DgmLen:367 DF
+***AP*** Seq: 0x950338E2  Ack: 0x545CA586  Win: 0x4092  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:38:48.659241 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29883 IpLen:20 DgmLen:367 DF
+***AP*** Seq: 0x950338E2  Ack: 0x545CA586  Win: 0x4092  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000002:1] Contains database console commands for Microsoft SQL Server [**]
+[Priority: 0] 
+07/14-13:38:49.912761 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29913 IpLen:20 DgmLen:370 DF
+***AP*** Seq: 0x95033C29  Ack: 0x545CA5A8  Win: 0x4070  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:38:49.912761 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29913 IpLen:20 DgmLen:370 DF
+***AP*** Seq: 0x95033C29  Ack: 0x545CA5A8  Win: 0x4070  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000002:1] Contains database console commands for Microsoft SQL Server [**]
+[Priority: 0] 
+07/14-13:38:51.162269 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29943 IpLen:20 DgmLen:391 DF
+***AP*** Seq: 0x95033F73  Ack: 0x545CA5CA  Win: 0x404E  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:38:51.162269 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29943 IpLen:20 DgmLen:391 DF
+***AP*** Seq: 0x95033F73  Ack: 0x545CA5CA  Win: 0x404E  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000002:1] Contains database console commands for Microsoft SQL Server [**]
+[Priority: 0] 
+07/14-13:38:52.537276 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29974 IpLen:20 DgmLen:373 DF
+***AP*** Seq: 0x950342D2  Ack: 0x545CA5EC  Win: 0x402C  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:38:52.537276 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29974 IpLen:20 DgmLen:373 DF
+***AP*** Seq: 0x950342D2  Ack: 0x545CA5EC  Win: 0x402C  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000002:1] Contains database console commands for Microsoft SQL Server [**]
+[Priority: 0] 
+07/14-13:38:53.792345 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29990 IpLen:20 DgmLen:376 DF
+***AP*** Seq: 0x9503461F  Ack: 0x545CA60E  Win: 0x400A  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:38:53.792345 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29990 IpLen:20 DgmLen:376 DF
+***AP*** Seq: 0x9503461F  Ack: 0x545CA60E  Win: 0x400A  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000002:1] Contains database console commands for Microsoft SQL Server [**]
+[Priority: 0] 
+07/14-13:38:55.022652 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:30000 IpLen:20 DgmLen:373 DF
+***AP*** Seq: 0x9503496F  Ack: 0x545CA630  Win: 0x3FE8  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:38:55.022652 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:30000 IpLen:20 DgmLen:373 DF
+***AP*** Seq: 0x9503496F  Ack: 0x545CA630  Win: 0x3FE8  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:39:10.195469 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:30182 IpLen:20 DgmLen:938 DF
+***AP*** Seq: 0x9503669C  Ack: 0x545CA7C8  Win: 0x3E50  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:2010935:2] ET POLICY Suspicious inbound to MSSQL port 1433 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:44:37.959045 162.243.128.149:38171 -> 192.168.2.152:1433
+TCP TTL:241 TOS:0x0 ID:54321 IpLen:20 DgmLen:44
+******S* Seq: 0xF850B4D1  Ack: 0x0  Win: 0xFFFF  TcpLen: 24
+TCP Options (1) => MSS: 1412 
+[Xref => http://doc.emergingthreats.net/2010935]
+
+[**] [1:2010935:2] ET POLICY Suspicious inbound to MSSQL port 1433 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/14-13:45:06.285835 162.243.128.149:38288 -> 192.168.2.152:1433
+TCP TTL:50 TOS:0x0 ID:33492 IpLen:20 DgmLen:60 DF
+******S* Seq: 0xC3957694  Ack: 0x0  Win: 0x7210  TcpLen: 40
+TCP Options (5) => MSS: 1412 SackOK TS: 109479017 0 NOP WS: 7 
+[Xref => http://doc.emergingthreats.net/2010935]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:39:28.563639 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:64 TOS:0x0 ID:33590 IpLen:20 DgmLen:16349 DF
+***A**** Seq: 0x9503EE0E  Ack: 0x545CABC4  Win: 0xFF84  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:40:23.950580 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31212 IpLen:20 DgmLen:165 DF
+***AP*** Seq: 0x9504532F  Ack: 0x545CADE4  Win: 0x3DCE  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:40:25.137675 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31219 IpLen:20 DgmLen:552 DF
+***AP*** Seq: 0x950453AC  Ack: 0x545CAE06  Win: 0x3DAC  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:40:25.200151 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31220 IpLen:20 DgmLen:1288 DF
+***AP*** Seq: 0x950455AC  Ack: 0x545CAE06  Win: 0x3DAC  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:40:40.220404 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31390 IpLen:20 DgmLen:106 DF
+***AP*** Seq: 0x95048E65  Ack: 0x545CAED2  Win: 0x3CE0  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000005:1] Contains sensitive operation commands dump transaction with no_log [**]
+[Priority: 0] 
+07/14-13:40:40.416334 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31392 IpLen:20 DgmLen:84 DF
+***AP*** Seq: 0x95048EA7  Ack: 0x545CAEF4  Win: 0x3CBE  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000007:1] Contains sensitive operation commands master.dbo.sp_addsrvrolemember [**]
+[Priority: 0] 
+07/14-13:40:40.573802 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31393 IpLen:20 DgmLen:140 DF
+***AP*** Seq: 0x95048ED3  Ack: 0x545CAF16  Win: 0x4230  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000006:1] Contains sensitive operation commands master.dbo.sp_addlogin  [**]
+[Priority: 0] 
+07/14-13:40:40.573802 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31393 IpLen:20 DgmLen:140 DF
+***AP*** Seq: 0x95048ED3  Ack: 0x545CAF16  Win: 0x4230  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000009:1] Contains sensitive operation commands kill Active defense [**]
+[Priority: 0] 
+07/14-13:40:40.730382 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31394 IpLen:20 DgmLen:215 DF
+***AP*** Seq: 0x95048F37  Ack: 0x545CAF38  Win: 0x420E  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000010:1] Contains sensitive operation commands kill 360tray [**]
+[Priority: 0] 
+07/14-13:40:40.730382 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31394 IpLen:20 DgmLen:215 DF
+***AP*** Seq: 0x95048F37  Ack: 0x545CAF38  Win: 0x420E  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000011:1] Contains sensitive operation commands kill 360rps [**]
+[Priority: 0] 
+07/14-13:40:40.730382 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31394 IpLen:20 DgmLen:215 DF
+***AP*** Seq: 0x95048F37  Ack: 0x545CAF38  Win: 0x420E  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000008:1] Contains sensitive operation commands kill 360 [**]
+[Priority: 0] 
+07/14-13:40:40.730382 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31394 IpLen:20 DgmLen:215 DF
+***AP*** Seq: 0x95048F37  Ack: 0x545CAF38  Win: 0x420E  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+

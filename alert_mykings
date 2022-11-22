@@ -1,0 +1,203 @@
+[**] [1:5000001:1] Contains sensitive to microl office [**]
+[Priority: 0] 
+07/14-13:38:36.327323 124.225.62.62:63488 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29507 IpLen:20 DgmLen:552 DF
+***AP*** Seq: 0x71487A00  Ack: 0x5FBF3A40  Win: 0x4230  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKingsbotnet.0.pdf]
+
+[**] [1:5000001:1] Contains sensitive to microl office [**]
+[Priority: 0] 
+07/14-13:38:37.383789 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29560 IpLen:20 DgmLen:552 DF
+***AP*** Seq: 0x95032A63  Ack: 0x545CA3E8  Win: 0x4230  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKingsbotnet.0.pdf]
+
+[**] [1:5000002:1] Contains database console commands for Microsoft SQL Server [**]
+[Priority: 0] 
+07/14-13:38:42.462731 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29777 IpLen:20 DgmLen:303 DF
+***AP*** Seq: 0x95032EAF  Ack: 0x545CA4DC  Win: 0x413C  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000002:1] Contains database console commands for Microsoft SQL Server [**]
+[Priority: 0] 
+07/14-13:38:44.823790 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29825 IpLen:20 DgmLen:552 DF
+***AP*** Seq: 0x950330EC  Ack: 0x545CA520  Win: 0x40F8  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000002:1] Contains database console commands for Microsoft SQL Server [**]
+[Priority: 0] 
+07/14-13:38:48.659241 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29883 IpLen:20 DgmLen:367 DF
+***AP*** Seq: 0x950338E2  Ack: 0x545CA586  Win: 0x4092  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:38:48.659241 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29883 IpLen:20 DgmLen:367 DF
+***AP*** Seq: 0x950338E2  Ack: 0x545CA586  Win: 0x4092  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000002:1] Contains database console commands for Microsoft SQL Server [**]
+[Priority: 0] 
+07/14-13:38:49.912761 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29913 IpLen:20 DgmLen:370 DF
+***AP*** Seq: 0x95033C29  Ack: 0x545CA5A8  Win: 0x4070  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:38:49.912761 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29913 IpLen:20 DgmLen:370 DF
+***AP*** Seq: 0x95033C29  Ack: 0x545CA5A8  Win: 0x4070  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000002:1] Contains database console commands for Microsoft SQL Server [**]
+[Priority: 0] 
+07/14-13:38:51.162269 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29943 IpLen:20 DgmLen:391 DF
+***AP*** Seq: 0x95033F73  Ack: 0x545CA5CA  Win: 0x404E  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:38:51.162269 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29943 IpLen:20 DgmLen:391 DF
+***AP*** Seq: 0x95033F73  Ack: 0x545CA5CA  Win: 0x404E  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000002:1] Contains database console commands for Microsoft SQL Server [**]
+[Priority: 0] 
+07/14-13:38:52.537276 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29974 IpLen:20 DgmLen:373 DF
+***AP*** Seq: 0x950342D2  Ack: 0x545CA5EC  Win: 0x402C  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:38:52.537276 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29974 IpLen:20 DgmLen:373 DF
+***AP*** Seq: 0x950342D2  Ack: 0x545CA5EC  Win: 0x402C  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000002:1] Contains database console commands for Microsoft SQL Server [**]
+[Priority: 0] 
+07/14-13:38:53.792345 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29990 IpLen:20 DgmLen:376 DF
+***AP*** Seq: 0x9503461F  Ack: 0x545CA60E  Win: 0x400A  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:38:53.792345 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:29990 IpLen:20 DgmLen:376 DF
+***AP*** Seq: 0x9503461F  Ack: 0x545CA60E  Win: 0x400A  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000002:1] Contains database console commands for Microsoft SQL Server [**]
+[Priority: 0] 
+07/14-13:38:55.022652 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:30000 IpLen:20 DgmLen:373 DF
+***AP*** Seq: 0x9503496F  Ack: 0x545CA630  Win: 0x3FE8  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:38:55.022652 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:30000 IpLen:20 DgmLen:373 DF
+***AP*** Seq: 0x9503496F  Ack: 0x545CA630  Win: 0x3FE8  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:39:10.195469 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:30182 IpLen:20 DgmLen:938 DF
+***AP*** Seq: 0x9503669C  Ack: 0x545CA7C8  Win: 0x3E50  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:39:28.563639 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:64 TOS:0x0 ID:33590 IpLen:20 DgmLen:16349 DF
+***A**** Seq: 0x9503EE0E  Ack: 0x545CABC4  Win: 0xFF84  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:40:23.950580 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31212 IpLen:20 DgmLen:165 DF
+***AP*** Seq: 0x9504532F  Ack: 0x545CADE4  Win: 0x3DCE  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:40:25.137675 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31219 IpLen:20 DgmLen:552 DF
+***AP*** Seq: 0x950453AC  Ack: 0x545CAE06  Win: 0x3DAC  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:40:25.200151 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31220 IpLen:20 DgmLen:1288 DF
+***AP*** Seq: 0x950455AC  Ack: 0x545CAE06  Win: 0x3DAC  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000004:1] Contains the sql exec sp_password [**]
+[Priority: 0] 
+07/14-13:40:40.220404 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31390 IpLen:20 DgmLen:106 DF
+***AP*** Seq: 0x95048E65  Ack: 0x545CAED2  Win: 0x3CE0  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000005:1] Contains sensitive operation commands dump transaction with no_log [**]
+[Priority: 0] 
+07/14-13:40:40.416334 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31392 IpLen:20 DgmLen:84 DF
+***AP*** Seq: 0x95048EA7  Ack: 0x545CAEF4  Win: 0x3CBE  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000007:1] Contains sensitive operation commands master.dbo.sp_addsrvrolemember [**]
+[Priority: 0] 
+07/14-13:40:40.573802 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31393 IpLen:20 DgmLen:140 DF
+***AP*** Seq: 0x95048ED3  Ack: 0x545CAF16  Win: 0x4230  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000006:1] Contains sensitive operation commands master.dbo.sp_addlogin  [**]
+[Priority: 0] 
+07/14-13:40:40.573802 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31393 IpLen:20 DgmLen:140 DF
+***AP*** Seq: 0x95048ED3  Ack: 0x545CAF16  Win: 0x4230  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000009:1] Contains sensitive operation commands kill Active defense [**]
+[Priority: 0] 
+07/14-13:40:40.730382 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31394 IpLen:20 DgmLen:215 DF
+***AP*** Seq: 0x95048F37  Ack: 0x545CAF38  Win: 0x420E  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000010:1] Contains sensitive operation commands kill 360tray [**]
+[Priority: 0] 
+07/14-13:40:40.730382 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31394 IpLen:20 DgmLen:215 DF
+***AP*** Seq: 0x95048F37  Ack: 0x545CAF38  Win: 0x420E  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000011:1] Contains sensitive operation commands kill 360rps [**]
+[Priority: 0] 
+07/14-13:40:40.730382 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31394 IpLen:20 DgmLen:215 DF
+***AP*** Seq: 0x95048F37  Ack: 0x545CAF38  Win: 0x420E  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+
+[**] [1:5000008:1] Contains sensitive operation commands kill 360 [**]
+[Priority: 0] 
+07/14-13:40:40.730382 124.225.62.62:63496 -> 192.168.2.152:1433
+TCP TTL:111 TOS:0x0 ID:31394 IpLen:20 DgmLen:215 DF
+***AP*** Seq: 0x95048F37  Ack: 0x545CAF38  Win: 0x420E  TcpLen: 20
+[Xref => http://blog.netlab.360.com/file/MyKings-botnet.0.pdf]
+

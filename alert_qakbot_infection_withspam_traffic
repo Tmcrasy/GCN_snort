@@ -1,0 +1,121 @@
+[**] [1:2022050:3] ET CURRENT_EVENTS Likely Evil EXE download from dotted Quad by MSXMLHTTP M1 [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+10/08-02:18:42.850086 190.14.37.238:80 -> 172.16.2.107:53979
+TCP TTL:128 TOS:0x0 ID:59634 IpLen:20 DgmLen:1416
+***AP*** Seq: 0x4BDCE813  Ack: 0x5CB6F84F  Win: 0xFAF0  TcpLen: 20
+
+[**] [1:2022050:3] ET CURRENT_EVENTS Likely Evil EXE download from dotted Quad by MSXMLHTTP M1 [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+10/08-02:18:42.850086 190.14.37.238:80 -> 172.16.2.107:53979
+TCP TTL:128 TOS:0x0 ID:59634 IpLen:20 DgmLen:1416
+***AP*** Seq: 0x4BDCE813  Ack: 0x5CB6F84F  Win: 0xFAF0  TcpLen: 20
+
+[**] [1:2014520:2] ET INFO EXE - Served Attached HTTP [**]
+[Classification: Misc activity] [Priority: 3] 
+10/08-02:18:42.850086 190.14.37.238:80 -> 172.16.2.107:53979
+TCP TTL:128 TOS:0x0 ID:44254 IpLen:20 DgmLen:16493 DF
+***A**** Seq: 0x4BDCE813  Ack: 0x5CB6F84F  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2022053:2] ET CURRENT_EVENTS Likely Evil EXE download from MSXMLHTTP non-exe extension M2 [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+10/08-02:18:42.850086 190.14.37.238:80 -> 172.16.2.107:53979
+TCP TTL:128 TOS:0x0 ID:44254 IpLen:20 DgmLen:16493 DF
+***A**** Seq: 0x4BDCE813  Ack: 0x5CB6F84F  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2022051:2] ET CURRENT_EVENTS Likely Evil EXE download from dotted Quad by MSXMLHTTP M2 [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+10/08-02:18:42.850086 190.14.37.238:80 -> 172.16.2.107:53979
+TCP TTL:128 TOS:0x0 ID:44254 IpLen:20 DgmLen:16493 DF
+***A**** Seq: 0x4BDCE813  Ack: 0x5CB6F84F  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2021076:1] ET INFO SUSPICIOUS Dotted Quad Host MZ Response [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+10/08-02:18:42.850086 190.14.37.238:80 -> 172.16.2.107:53979
+TCP TTL:128 TOS:0x0 ID:44254 IpLen:20 DgmLen:16493 DF
+***A**** Seq: 0x4BDCE813  Ack: 0x5CB6F84F  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2018959:3] ET POLICY PE EXE or DLL Windows file download HTTP [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+10/08-02:18:42.850086 190.14.37.238:80 -> 172.16.2.107:53979
+TCP TTL:128 TOS:0x0 ID:44254 IpLen:20 DgmLen:16493 DF
+***A**** Seq: 0x4BDCE813  Ack: 0x5CB6F84F  Win: 0xFFFF  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/bin/view/Main/2000419]
+
+[**] [1:2023997:1] ET INFO Potentially unsafe SMBv1 protocol in use [**]
+[Classification: Not Suspicious Traffic] [Priority: 3] 
+10/08-02:33:40.181129 172.16.2.107:54015 -> 172.16.2.4:445
+TCP TTL:128 TOS:0x0 ID:59232 IpLen:20 DgmLen:113 DF
+***AP*** Seq: 0x9953A07F  Ack: 0xBA2D1E7C  Win: 0x2014  TcpLen: 20
+[Xref => http://blogs.technet.microsoft.com/filecab/2016/09/16/stop-using-smb1/][Xref => http://www.us-cert.gov/ncas/current-activity/2017/01/16/SMB-Security-Best-Practices]
+
+[**] [1:2023997:1] ET INFO Potentially unsafe SMBv1 protocol in use [**]
+[Classification: Not Suspicious Traffic] [Priority: 3] 
+02/25-03:09:26.819835 10.2.24.101:49676 -> 10.2.24.24:445
+TCP TTL:128 TOS:0x0 ID:46369 IpLen:20 DgmLen:113 DF
+***AP*** Seq: 0x27E89A63  Ack: 0x57B3DB16  Win: 0x2014  TcpLen: 20
+[Xref => http://blogs.technet.microsoft.com/filecab/2016/09/16/stop-using-smb1/][Xref => http://www.us-cert.gov/ncas/current-activity/2017/01/16/SMB-Security-Best-Practices]
+
+[**] [1:2009702:5] ET POLICY DNS Update From External net [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+02/25-03:09:32.024428 10.2.24.101:61809 -> 10.2.24.24:53
+UDP TTL:128 TOS:0x0 ID:46572 IpLen:20 DgmLen:154
+Len: 126
+[Xref => http://doc.emergingthreats.net/2009702]
+
+[**] [1:2014520:2] ET INFO EXE - Served Attached HTTP [**]
+[Classification: Misc activity] [Priority: 3] 
+02/25-03:09:56.019714 207.244.235.57:80 -> 10.2.24.101:49722
+TCP TTL:128 TOS:0x0 ID:18973 IpLen:20 DgmLen:16576 DF
+***A**** Seq: 0x7A996BF3  Ack: 0xE6410185  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2022053:2] ET CURRENT_EVENTS Likely Evil EXE download from MSXMLHTTP non-exe extension M2 [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+02/25-03:09:56.019714 207.244.235.57:80 -> 10.2.24.101:49722
+TCP TTL:128 TOS:0x0 ID:18973 IpLen:20 DgmLen:16576 DF
+***A**** Seq: 0x7A996BF3  Ack: 0xE6410185  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2018959:3] ET POLICY PE EXE or DLL Windows file download HTTP [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+02/25-03:09:56.019714 207.244.235.57:80 -> 10.2.24.101:49722
+TCP TTL:128 TOS:0x0 ID:18973 IpLen:20 DgmLen:16576 DF
+***A**** Seq: 0x7A996BF3  Ack: 0xE6410185  Win: 0xFFFF  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/bin/view/Main/2000419]
+
+[**] [1:2014520:2] ET INFO EXE - Served Attached HTTP [**]
+[Classification: Misc activity] [Priority: 3] 
+02/25-03:10:02.905436 128.199.91.194:80 -> 10.2.24.101:49725
+TCP TTL:128 TOS:0x0 ID:39214 IpLen:20 DgmLen:16937 DF
+***A**** Seq: 0x41512D7A  Ack: 0x4CE10E41  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2022053:2] ET CURRENT_EVENTS Likely Evil EXE download from MSXMLHTTP non-exe extension M2 [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+02/25-03:10:02.905436 128.199.91.194:80 -> 10.2.24.101:49725
+TCP TTL:128 TOS:0x0 ID:39214 IpLen:20 DgmLen:16937 DF
+***A**** Seq: 0x41512D7A  Ack: 0x4CE10E41  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2018959:3] ET POLICY PE EXE or DLL Windows file download HTTP [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+02/25-03:10:02.905436 128.199.91.194:80 -> 10.2.24.101:49725
+TCP TTL:128 TOS:0x0 ID:39214 IpLen:20 DgmLen:16937 DF
+***A**** Seq: 0x41512D7A  Ack: 0x4CE10E41  Win: 0xFFFF  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/bin/view/Main/2000419]
+
+[**] [1:2014520:2] ET INFO EXE - Served Attached HTTP [**]
+[Classification: Misc activity] [Priority: 3] 
+02/25-03:10:06.066211 162.241.252.38:80 -> 10.2.24.101:49727
+TCP TTL:128 TOS:0x0 ID:4777 IpLen:20 DgmLen:16520 DF
+***A**** Seq: 0x42B01D75  Ack: 0xA52F900F  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2022053:2] ET CURRENT_EVENTS Likely Evil EXE download from MSXMLHTTP non-exe extension M2 [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+02/25-03:10:06.066211 162.241.252.38:80 -> 10.2.24.101:49727
+TCP TTL:128 TOS:0x0 ID:4777 IpLen:20 DgmLen:16520 DF
+***A**** Seq: 0x42B01D75  Ack: 0xA52F900F  Win: 0xFFFF  TcpLen: 20
+
+[**] [1:2018959:3] ET POLICY PE EXE or DLL Windows file download HTTP [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+02/25-03:10:06.066211 162.241.252.38:80 -> 10.2.24.101:49727
+TCP TTL:128 TOS:0x0 ID:4777 IpLen:20 DgmLen:16520 DF
+***A**** Seq: 0x42B01D75  Ack: 0xA52F900F  Win: 0xFFFF  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/bin/view/Main/2000419]
+

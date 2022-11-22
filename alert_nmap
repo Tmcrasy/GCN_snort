@@ -1,0 +1,241 @@
+[**] [1:2010937:2] ET POLICY Suspicious inbound to mySQL port 3306 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/11-08:52:09.159961 192.168.255.134:52038 -> 192.168.1.103:3306
+TCP TTL:53 TOS:0x0 ID:20865 IpLen:20 DgmLen:44
+******S* Seq: 0x5605C391  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1460 
+[Xref => http://doc.emergingthreats.net/2010937]
+
+[**] [1:2010937:2] ET POLICY Suspicious inbound to mySQL port 3306 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/11-08:52:10.263933 192.168.255.134:52039 -> 192.168.1.103:3306
+TCP TTL:42 TOS:0x0 ID:60898 IpLen:20 DgmLen:44
+******S* Seq: 0x5604C390  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1460 
+[Xref => http://doc.emergingthreats.net/2010937]
+
+[**] [1:2010935:2] ET POLICY Suspicious inbound to MSSQL port 1433 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/11-08:52:11.577772 192.168.255.134:52038 -> 192.168.1.103:1433
+TCP TTL:59 TOS:0x0 ID:52159 IpLen:20 DgmLen:44
+******S* Seq: 0x5605C391  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1460 
+[Xref => http://doc.emergingthreats.net/2010935]
+
+[**] [1:2010935:2] ET POLICY Suspicious inbound to MSSQL port 1433 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/11-08:52:11.684043 192.168.255.134:52039 -> 192.168.1.103:1433
+TCP TTL:53 TOS:0x0 ID:42860 IpLen:20 DgmLen:44
+******S* Seq: 0x5604C390  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1460 
+[Xref => http://doc.emergingthreats.net/2010935]
+
+[**] [1:2010939:2] ET POLICY Suspicious inbound to PostgreSQL port 5432 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/11-08:52:11.687061 192.168.255.134:52038 -> 192.168.1.103:5432
+TCP TTL:56 TOS:0x0 ID:48703 IpLen:20 DgmLen:44
+******S* Seq: 0x5605C391  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1460 
+[Xref => http://doc.emergingthreats.net/2010939]
+
+[**] [1:2010939:2] ET POLICY Suspicious inbound to PostgreSQL port 5432 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/11-08:52:11.787904 192.168.255.134:52039 -> 192.168.1.103:5432
+TCP TTL:44 TOS:0x0 ID:3101 IpLen:20 DgmLen:44
+******S* Seq: 0x5604C390  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1460 
+[Xref => http://doc.emergingthreats.net/2010939]
+
+[**] [1:2002911:5] ET SCAN Potential VNC Scan 5900-5920 [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+07/11-08:52:11.900707 192.168.255.134:52038 -> 192.168.1.103:5910
+TCP TTL:57 TOS:0x0 ID:30222 IpLen:20 DgmLen:44
+******S* Seq: 0x5605C391  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1460 
+[Xref => http://doc.emergingthreats.net/2002911]
+
+[**] [1:2002910:5] ET SCAN Potential VNC Scan 5800-5820 [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+07/11-08:52:12.503546 192.168.255.134:52038 -> 192.168.1.103:5801
+TCP TTL:42 TOS:0x0 ID:49268 IpLen:20 DgmLen:44
+******S* Seq: 0x5605C391  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1460 
+[Xref => http://doc.emergingthreats.net/2002910]
+
+[**] [1:2010936:2] ET POLICY Suspicious inbound to Oracle SQL port 1521 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/11-08:52:13.620975 192.168.255.134:52038 -> 192.168.1.103:1521
+TCP TTL:51 TOS:0x0 ID:29073 IpLen:20 DgmLen:44
+******S* Seq: 0x5605C391  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1460 
+[Xref => http://doc.emergingthreats.net/2010936]
+
+[**] [1:2010936:2] ET POLICY Suspicious inbound to Oracle SQL port 1521 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+07/11-08:52:13.723298 192.168.255.134:52039 -> 192.168.1.103:1521
+TCP TTL:44 TOS:0x0 ID:6894 IpLen:20 DgmLen:44
+******S* Seq: 0x5604C390  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1460 
+[Xref => http://doc.emergingthreats.net/2010936]
+
+[**] [1:2010937:2] ET POLICY Suspicious inbound to mySQL port 3306 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+10/27-10:56:01.922530 192.168.255.134:40440 -> 192.168.255.135:3306
+TCP TTL:64 TOS:0x0 ID:11275 IpLen:20 DgmLen:60 DF
+******S* Seq: 0xE0074918  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK TS: 2184236952 0 NOP WS: 7 
+[Xref => http://doc.emergingthreats.net/2010937]
+
+[**] [1:2002911:5] ET SCAN Potential VNC Scan 5900-5920 [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+10/27-10:56:02.510973 192.168.255.134:52722 -> 192.168.255.135:5918
+TCP TTL:64 TOS:0x0 ID:13789 IpLen:20 DgmLen:60 DF
+******S* Seq: 0x33285C2  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK TS: 2184237541 0 NOP WS: 7 
+[Xref => http://doc.emergingthreats.net/2002911]
+
+[**] [1:2002910:5] ET SCAN Potential VNC Scan 5800-5820 [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+10/27-10:56:03.854629 192.168.255.134:57112 -> 192.168.255.135:5814
+TCP TTL:64 TOS:0x0 ID:19094 IpLen:20 DgmLen:60 DF
+******S* Seq: 0xD39758FC  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK TS: 2184238884 0 NOP WS: 7 
+[Xref => http://doc.emergingthreats.net/2002910]
+
+[**] [1:2010938:2] ET POLICY Suspicious inbound to mSQL port 4333 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+10/27-10:56:03.996833 192.168.255.134:42580 -> 192.168.255.135:4333
+TCP TTL:64 TOS:0x0 ID:41531 IpLen:20 DgmLen:60 DF
+******S* Seq: 0x654AC1C6  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK TS: 2184239026 0 NOP WS: 7 
+[Xref => http://doc.emergingthreats.net/2010938]
+
+[**] [1:2010939:2] ET POLICY Suspicious inbound to PostgreSQL port 5432 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+10/27-10:56:04.606613 192.168.255.134:33890 -> 192.168.255.135:5432
+TCP TTL:64 TOS:0x0 ID:5201 IpLen:20 DgmLen:60 DF
+******S* Seq: 0xAA3240B8  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK TS: 2184239636 0 NOP WS: 7 
+[Xref => http://doc.emergingthreats.net/2010939]
+
+[**] [1:2010936:2] ET POLICY Suspicious inbound to Oracle SQL port 1521 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+10/27-10:56:05.339253 192.168.255.134:58232 -> 192.168.255.135:1521
+TCP TTL:64 TOS:0x0 ID:30074 IpLen:20 DgmLen:60 DF
+******S* Seq: 0x84A09870  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK TS: 2184240369 0 NOP WS: 7 
+[Xref => http://doc.emergingthreats.net/2010936]
+
+[**] [1:2010935:2] ET POLICY Suspicious inbound to MSSQL port 1433 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+10/27-10:56:05.394089 192.168.255.134:42014 -> 192.168.255.135:1433
+TCP TTL:64 TOS:0x0 ID:4922 IpLen:20 DgmLen:60 DF
+******S* Seq: 0x56BC5741  Ack: 0x0  Win: 0xFAF0  TcpLen: 40
+TCP Options (5) => MSS: 1460 SackOK TS: 2184240424 0 NOP WS: 7 
+[Xref => http://doc.emergingthreats.net/2010935]
+
+[**] [1:2022973:1] ET POLICY Possible Kali Linux hostname in DHCP Request Packet [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+10/27-10:56:35.558884 192.168.255.134:68 -> 192.168.255.254:67
+UDP TTL:64 TOS:0xC0 ID:3875 IpLen:20 DgmLen:310 DF
+Len: 282
+[Xref => http://www.kali.org]
+
+[**] [1:2010937:2] ET POLICY Suspicious inbound to mySQL port 3306 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+10/27-10:57:25.652864 192.168.255.134:34672 -> 192.168.255.135:3306
+TCP TTL:44 TOS:0x0 ID:59492 IpLen:20 DgmLen:44
+******S* Seq: 0x5BC2050C  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1460 
+[Xref => http://doc.emergingthreats.net/2010937]
+
+[**] [1:2010936:2] ET POLICY Suspicious inbound to Oracle SQL port 1521 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+10/27-10:57:25.655435 192.168.255.134:34672 -> 192.168.255.135:1521
+TCP TTL:58 TOS:0x0 ID:36865 IpLen:20 DgmLen:44
+******S* Seq: 0x5BC2050C  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1460 
+[Xref => http://doc.emergingthreats.net/2010936]
+
+[**] [1:2010935:2] ET POLICY Suspicious inbound to MSSQL port 1433 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+10/27-10:57:25.666937 192.168.255.134:34672 -> 192.168.255.135:1433
+TCP TTL:44 TOS:0x0 ID:42915 IpLen:20 DgmLen:44
+******S* Seq: 0x5BC2050C  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1460 
+[Xref => http://doc.emergingthreats.net/2010935]
+
+[**] [1:2002911:5] ET SCAN Potential VNC Scan 5900-5920 [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+10/27-10:57:25.671718 192.168.255.134:34672 -> 192.168.255.135:5906
+TCP TTL:52 TOS:0x0 ID:7723 IpLen:20 DgmLen:44
+******S* Seq: 0x5BC2050C  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1460 
+[Xref => http://doc.emergingthreats.net/2002911]
+
+[**] [1:2002910:5] ET SCAN Potential VNC Scan 5800-5820 [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+10/27-10:57:25.708557 192.168.255.134:34672 -> 192.168.255.135:5811
+TCP TTL:59 TOS:0x0 ID:62637 IpLen:20 DgmLen:44
+******S* Seq: 0x5BC2050C  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1460 
+[Xref => http://doc.emergingthreats.net/2002910]
+
+[**] [1:2010939:2] ET POLICY Suspicious inbound to PostgreSQL port 5432 [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+10/27-10:57:25.716719 192.168.255.134:34672 -> 192.168.255.135:5432
+TCP TTL:45 TOS:0x0 ID:52372 IpLen:20 DgmLen:44
+******S* Seq: 0x5BC2050C  Ack: 0x0  Win: 0x400  TcpLen: 24
+TCP Options (1) => MSS: 1460 
+[Xref => http://doc.emergingthreats.net/2010939]
+
+[**] [1:2101390:8] GPL SHELLCODE x86 inc ebx NOOP [**]
+[Classification: Executable code was detected] [Priority: 1] 
+10/27-10:57:25.875851 192.168.255.134:59725 -> 192.168.255.135:42273
+UDP TTL:64 TOS:0x0 ID:4162 IpLen:20 DgmLen:328
+Len: 300
+
+[**] [1:2018489:3] ET SCAN NMAP OS Detection Probe [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+10/27-10:57:25.875851 192.168.255.134:59725 -> 192.168.255.135:42273
+UDP TTL:64 TOS:0x0 ID:4162 IpLen:20 DgmLen:328
+Len: 300
+
+[**] [1:2101390:8] GPL SHELLCODE x86 inc ebx NOOP [**]
+[Classification: Executable code was detected] [Priority: 1] 
+10/27-10:57:25.876395 192.168.255.135 -> 192.168.255.134
+ICMP TTL:64 TOS:0xC0 ID:65464 IpLen:20 DgmLen:356
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+192.168.255.134:59725 -> 192.168.255.135:42273
+UDP TTL:64 TOS:0x0 ID:4162 IpLen:20 DgmLen:328
+Len: 300  Csum: 34125
+(300 more bytes of original packet)
+** END OF DUMP
+
+[**] [1:2101390:8] GPL SHELLCODE x86 inc ebx NOOP [**]
+[Classification: Executable code was detected] [Priority: 1] 
+10/27-10:57:27.014826 192.168.255.134:59725 -> 192.168.255.135:42273
+UDP TTL:51 TOS:0x0 ID:4162 IpLen:20 DgmLen:328
+Len: 300
+
+[**] [1:2018489:3] ET SCAN NMAP OS Detection Probe [**]
+[Classification: Attempted Information Leak] [Priority: 2] 
+10/27-10:57:27.014826 192.168.255.134:59725 -> 192.168.255.135:42273
+UDP TTL:51 TOS:0x0 ID:4162 IpLen:20 DgmLen:328
+Len: 300
+
+[**] [1:2101390:8] GPL SHELLCODE x86 inc ebx NOOP [**]
+[Classification: Executable code was detected] [Priority: 1] 
+10/27-10:57:27.015125 192.168.255.135 -> 192.168.255.134
+ICMP TTL:64 TOS:0xC0 ID:165 IpLen:20 DgmLen:356
+Type:3  Code:3  DESTINATION UNREACHABLE: PORT UNREACHABLE
+** ORIGINAL DATAGRAM DUMP:
+192.168.255.134:59725 -> 192.168.255.135:42273
+UDP TTL:51 TOS:0x0 ID:4162 IpLen:20 DgmLen:328
+Len: 300  Csum: 34125
+(300 more bytes of original packet)
+** END OF DUMP
+
+
+

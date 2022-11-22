@@ -1,0 +1,95 @@
+[**] [1:2023997:1] ET INFO Potentially unsafe SMBv1 protocol in use [**]
+[Classification: Not Suspicious Traffic] [Priority: 3] 
+10/15-01:58:12.868455 10.10.14.101:57723 -> 10.10.14.14:445
+TCP TTL:128 TOS:0x0 ID:22732 IpLen:20 DgmLen:113 DF
+***AP*** Seq: 0x7F141CD4  Ack: 0xA2C75BD2  Win: 0x2014  TcpLen: 20
+[Xref => http://blogs.technet.microsoft.com/filecab/2016/09/16/stop-using-smb1/][Xref => http://www.us-cert.gov/ncas/current-activity/2017/01/16/SMB-Security-Best-Practices]
+
+[**] [1:2023883:1] ET DNS Query to a *.top domain - Likely Hostile [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+10/15-01:59:20.435925 10.10.14.101:60823 -> 10.10.14.14:53
+UDP TTL:128 TOS:0x0 ID:22915 IpLen:20 DgmLen:58
+Len: 30
+[Xref => http://www.spamhaus.org/statistics/tlds/][Xref => http://www.symantec.com/connect/blogs/shady-tld-research-gdn-and-our-2016-wrap]
+
+[**] [1:2023882:1] ET INFO HTTP Request to a *.top domain [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+10/15-01:59:21.960866 10.10.14.101:49983 -> 172.67.189.140:80
+TCP TTL:128 TOS:0x0 ID:38336 IpLen:20 DgmLen:119
+***A**** Seq: 0x8B0F7A5D  Ack: 0xB3F0CEA5  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.spamhaus.org/statistics/tlds/][Xref => http://www.symantec.com/connect/blogs/shady-tld-research-gdn-and-our-2016-wrap]
+
+[**] [1:2014520:2] ET INFO EXE - Served Attached HTTP [**]
+[Classification: Misc activity] [Priority: 3] 
+10/15-01:59:22.881365 172.67.189.140:80 -> 10.10.14.101:49983
+TCP TTL:128 TOS:0x0 ID:50066 IpLen:20 DgmLen:17338 DF
+***A**** Seq: 0xB3F0D1B9  Ack: 0x8B0F7AE2  Win: 0xFAF0  TcpLen: 20
+
+[**] [1:2014819:1] ET INFO Packed Executable Download [**]
+[Classification: Misc activity] [Priority: 3] 
+10/15-01:59:22.881365 172.67.189.140:80 -> 10.10.14.101:49983
+TCP TTL:128 TOS:0x0 ID:50066 IpLen:20 DgmLen:17338 DF
+***A**** Seq: 0xB3F0D1B9  Ack: 0x8B0F7AE2  Win: 0xFAF0  TcpLen: 20
+
+[**] [1:2023464:1] ET INFO Possible EXE Download From Suspicious TLD [**]
+[Classification: Misc activity] [Priority: 3] 
+10/15-01:59:22.881365 172.67.189.140:80 -> 10.10.14.101:49983
+TCP TTL:128 TOS:0x0 ID:50066 IpLen:20 DgmLen:17338 DF
+***A**** Seq: 0xB3F0D1B9  Ack: 0x8B0F7AE2  Win: 0xFAF0  TcpLen: 20
+[Xref => http://www.spamhaus.org/statistics/tlds/]
+
+[**] [1:2018959:3] ET POLICY PE EXE or DLL Windows file download HTTP [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+10/15-01:59:22.881365 172.67.189.140:80 -> 10.10.14.101:49983
+TCP TTL:128 TOS:0x0 ID:50066 IpLen:20 DgmLen:17338 DF
+***A**** Seq: 0xB3F0D1B9  Ack: 0x8B0F7AE2  Win: 0xFAF0  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/bin/view/Main/2000419]
+
+[**] [1:2016538:2] ET INFO Executable Retrieved With Minimal HTTP Headers - Potential Second Stage Download [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+10/15-01:59:22.881365 172.67.189.140:80 -> 10.10.14.101:49983
+TCP TTL:128 TOS:0x0 ID:50066 IpLen:20 DgmLen:17338 DF
+***A**** Seq: 0xB3F0D1B9  Ack: 0x8B0F7AE2  Win: 0xFAF0  TcpLen: 20
+
+[**] [1:2023997:1] ET INFO Potentially unsafe SMBv1 protocol in use [**]
+[Classification: Not Suspicious Traffic] [Priority: 3] 
+10/15-02:28:12.921195 10.10.14.101:50041 -> 10.10.14.14:445
+TCP TTL:128 TOS:0x0 ID:23207 IpLen:20 DgmLen:113 DF
+***AP*** Seq: 0x645B7A2C  Ack: 0xB295E0F1  Win: 0x2014  TcpLen: 20
+[Xref => http://blogs.technet.microsoft.com/filecab/2016/09/16/stop-using-smb1/][Xref => http://www.us-cert.gov/ncas/current-activity/2017/01/16/SMB-Security-Best-Practices]
+
+[**] [1:2023997:1] ET INFO Potentially unsafe SMBv1 protocol in use [**]
+[Classification: Not Suspicious Traffic] [Priority: 3] 
+10/15-02:58:12.967223 10.10.14.101:50083 -> 10.10.14.14:445
+TCP TTL:128 TOS:0x0 ID:23336 IpLen:20 DgmLen:113 DF
+***AP*** Seq: 0x384C1356  Ack: 0x64491594  Win: 0x2014  TcpLen: 20
+[Xref => http://blogs.technet.microsoft.com/filecab/2016/09/16/stop-using-smb1/][Xref => http://www.us-cert.gov/ncas/current-activity/2017/01/16/SMB-Security-Best-Practices]
+
+[**] [1:2023997:1] ET INFO Potentially unsafe SMBv1 protocol in use [**]
+[Classification: Not Suspicious Traffic] [Priority: 3] 
+10/15-03:28:13.004101 10.10.14.101:50110 -> 10.10.14.14:445
+TCP TTL:128 TOS:0x0 ID:23573 IpLen:20 DgmLen:113 DF
+***AP*** Seq: 0x8C827DDF  Ack: 0xFB66A79C  Win: 0x2014  TcpLen: 20
+[Xref => http://blogs.technet.microsoft.com/filecab/2016/09/16/stop-using-smb1/][Xref => http://www.us-cert.gov/ncas/current-activity/2017/01/16/SMB-Security-Best-Practices]
+
+[**] [1:2023997:1] ET INFO Potentially unsafe SMBv1 protocol in use [**]
+[Classification: Not Suspicious Traffic] [Priority: 3] 
+10/15-03:58:13.070236 10.10.14.101:50143 -> 10.10.14.14:445
+TCP TTL:128 TOS:0x0 ID:23702 IpLen:20 DgmLen:113 DF
+***AP*** Seq: 0xFA6F77EE  Ack: 0x7D30818B  Win: 0x2014  TcpLen: 20
+[Xref => http://blogs.technet.microsoft.com/filecab/2016/09/16/stop-using-smb1/][Xref => http://www.us-cert.gov/ncas/current-activity/2017/01/16/SMB-Security-Best-Practices]
+
+[**] [1:2023997:1] ET INFO Potentially unsafe SMBv1 protocol in use [**]
+[Classification: Not Suspicious Traffic] [Priority: 3] 
+10/15-04:28:13.151745 10.10.14.101:50173 -> 10.10.14.14:445
+TCP TTL:128 TOS:0x0 ID:23815 IpLen:20 DgmLen:113 DF
+***AP*** Seq: 0xBA352D2C  Ack: 0x15412F63  Win: 0x2014  TcpLen: 20
+[Xref => http://blogs.technet.microsoft.com/filecab/2016/09/16/stop-using-smb1/][Xref => http://www.us-cert.gov/ncas/current-activity/2017/01/16/SMB-Security-Best-Practices]
+
+[**] [1:2023997:1] ET INFO Potentially unsafe SMBv1 protocol in use [**]
+[Classification: Not Suspicious Traffic] [Priority: 3] 
+10/15-04:48:20.881419 10.10.14.101:50196 -> 10.10.14.14:445
+TCP TTL:128 TOS:0x0 ID:23913 IpLen:20 DgmLen:113 DF
+***AP*** Seq: 0xC9062BAC  Ack: 0x86E2C719  Win: 0x2014  TcpLen: 20
+[Xref => http://blogs.technet.microsoft.com/filecab/2016/09/16/stop-using-smb1/][Xref => http://www.us-cert.gov/ncas/current-activity/2017/01/16/SMB-Security-Best-Practices]
+

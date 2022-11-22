@@ -1,0 +1,131 @@
+[**] [1:2023997:1] ET INFO Potentially unsafe SMBv1 protocol in use [**]
+[Classification: Not Suspicious Traffic] [Priority: 3] 
+01/29-05:44:14.244072 172.17.8.109:49160 -> 172.17.8.2:445
+TCP TTL:128 TOS:0x0 ID:46 IpLen:20 DgmLen:199 DF
+***AP*** Seq: 0xAC37CA7B  Ack: 0x73AFA5CB  Win: 0x100  TcpLen: 20
+[Xref => http://blogs.technet.microsoft.com/filecab/2016/09/16/stop-using-smb1/][Xref => http://www.us-cert.gov/ncas/current-activity/2017/01/16/SMB-Security-Best-Practices]
+
+[**] [1:2009702:5] ET POLICY DNS Update From External net [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+01/29-05:44:21.936065 172.17.8.109:52192 -> 172.17.8.2:53
+UDP TTL:128 TOS:0x0 ID:264 IpLen:20 DgmLen:146
+Len: 118
+[Xref => http://doc.emergingthreats.net/2009702]
+
+[**] [1:2404344:4545] ET CNC Feodo Tracker Reported CnC Server TCP group 23 [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+01/29-05:49:17.670214 172.17.8.109:49207 -> 91.121.30.169:8000
+TCP TTL:128 TOS:0x0 ID:459 IpLen:20 DgmLen:52 DF
+******S* Seq: 0x8B7E2C20  Ack: 0x0  Win: 0x2000  TcpLen: 32
+TCP Options (6) => MSS: 1460 NOP WS: 8 NOP NOP SackOK 
+[Xref => http://feodotracker.abuse.ch][Xref => http://doc.emergingthreats.net/bin/view/Main/BotCC]
+
+[**] [1:2018752:10] ET TROJAN Generic .bin download from Dotted Quad [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+01/29-05:49:17.801380 172.17.8.109:49207 -> 91.121.30.169:8000
+TCP TTL:128 TOS:0x0 ID:40774 IpLen:20 DgmLen:126
+***A**** Seq: 0x8B7E2C21  Ack: 0x2027160A  Win: 0xFAF0  TcpLen: 20
+
+[**] [1:2014819:1] ET INFO Packed Executable Download [**]
+[Classification: Misc activity] [Priority: 3] 
+01/29-05:49:17.982381 91.121.30.169:8000 -> 172.17.8.109:49207
+TCP TTL:128 TOS:0x0 ID:468 IpLen:20 DgmLen:17022 DF
+***A**** Seq: 0x2027160A  Ack: 0x8B7E2C77  Win: 0xFAF0  TcpLen: 20
+
+[**] [1:2018959:3] ET POLICY PE EXE or DLL Windows file download HTTP [**]
+[Classification: Potential Corporate Privacy Violation] [Priority: 1] 
+01/29-05:49:17.982381 91.121.30.169:8000 -> 172.17.8.109:49207
+TCP TTL:128 TOS:0x0 ID:468 IpLen:20 DgmLen:17022 DF
+***A**** Seq: 0x2027160A  Ack: 0x8B7E2C77  Win: 0xFAF0  TcpLen: 20
+[Xref => http://doc.emergingthreats.net/bin/view/Main/2000419]
+
+[**] [1:2016538:2] ET INFO Executable Retrieved With Minimal HTTP Headers - Potential Second Stage Download [**]
+[Classification: Potentially Bad Traffic] [Priority: 2] 
+01/29-05:49:17.982381 91.121.30.169:8000 -> 172.17.8.109:49207
+TCP TTL:128 TOS:0x0 ID:468 IpLen:20 DgmLen:17022 DF
+***A**** Seq: 0x2027160A  Ack: 0x8B7E2C77  Win: 0xFAF0  TcpLen: 20
+
+[**] [1:2023476:3] ET TROJAN ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex) [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+01/29-05:52:02.895791 192.241.220.183:3389 -> 172.17.8.109:49212
+TCP TTL:128 TOS:0x0 ID:40901 IpLen:20 DgmLen:1045
+***AP*** Seq: 0x5C3F30FF  Ack: 0xDF241AF8  Win: 0xFAF0  TcpLen: 20
+[Xref => http://sslbl.abuse.ch]
+
+[**] [1:2022627:11] ET TROJAN ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex) [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+01/29-05:52:02.895791 192.241.220.183:3389 -> 172.17.8.109:49212
+TCP TTL:128 TOS:0x0 ID:40901 IpLen:20 DgmLen:1045
+***AP*** Seq: 0x5C3F30FF  Ack: 0xDF241AF8  Win: 0xFAF0  TcpLen: 20
+[Xref => http://sslbl.abuse.ch]
+
+[**] [1:2023476:3] ET TROJAN ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex) [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+01/29-05:52:04.893382 192.241.220.183:3389 -> 172.17.8.109:49214
+TCP TTL:128 TOS:0x0 ID:40920 IpLen:20 DgmLen:1045
+***AP*** Seq: 0x29703190  Ack: 0xE9DF89B8  Win: 0xFAF0  TcpLen: 20
+[Xref => http://sslbl.abuse.ch]
+
+[**] [1:2022627:11] ET TROJAN ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex) [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+01/29-05:52:04.893382 192.241.220.183:3389 -> 172.17.8.109:49214
+TCP TTL:128 TOS:0x0 ID:40920 IpLen:20 DgmLen:1045
+***AP*** Seq: 0x29703190  Ack: 0xE9DF89B8  Win: 0xFAF0  TcpLen: 20
+[Xref => http://sslbl.abuse.ch]
+
+[**] [1:2023476:3] ET TROJAN ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex) [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+01/29-05:52:08.238974 192.241.220.183:3389 -> 172.17.8.109:49215
+TCP TTL:128 TOS:0x0 ID:41382 IpLen:20 DgmLen:1045
+***AP*** Seq: 0x24EA4124  Ack: 0xE7A775D8  Win: 0xFAF0  TcpLen: 20
+[Xref => http://sslbl.abuse.ch]
+
+[**] [1:2022627:11] ET TROJAN ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex) [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+01/29-05:52:08.238974 192.241.220.183:3389 -> 172.17.8.109:49215
+TCP TTL:128 TOS:0x0 ID:41382 IpLen:20 DgmLen:1045
+***AP*** Seq: 0x24EA4124  Ack: 0xE7A775D8  Win: 0xFAF0  TcpLen: 20
+[Xref => http://sslbl.abuse.ch]
+
+[**] [1:2023476:3] ET TROJAN ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex) [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+01/29-05:52:13.693600 192.241.220.183:3389 -> 172.17.8.109:49216
+TCP TTL:128 TOS:0x0 ID:41390 IpLen:20 DgmLen:1045
+***AP*** Seq: 0x7D4D7B42  Ack: 0x76113AEA  Win: 0xFAF0  TcpLen: 20
+[Xref => http://sslbl.abuse.ch]
+
+[**] [1:2022627:11] ET TROJAN ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex) [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+01/29-05:52:13.693600 192.241.220.183:3389 -> 172.17.8.109:49216
+TCP TTL:128 TOS:0x0 ID:41390 IpLen:20 DgmLen:1045
+***AP*** Seq: 0x7D4D7B42  Ack: 0x76113AEA  Win: 0xFAF0  TcpLen: 20
+[Xref => http://sslbl.abuse.ch]
+
+[**] [1:2023476:3] ET TROJAN ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex) [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+01/29-05:55:51.722174 216.239.94.252:443 -> 172.17.8.109:49224
+TCP TTL:128 TOS:0x0 ID:41403 IpLen:20 DgmLen:1061
+***AP*** Seq: 0x7B4B0E02  Ack: 0xE4E11F22  Win: 0xFAF0  TcpLen: 20
+[Xref => http://sslbl.abuse.ch]
+
+[**] [1:2023476:3] ET TROJAN ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex) [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+01/29-05:56:18.182007 216.239.94.252:443 -> 172.17.8.109:49230
+TCP TTL:128 TOS:0x0 ID:42239 IpLen:20 DgmLen:1061
+***AP*** Seq: 0x428C692F  Ack: 0x99C030D0  Win: 0xFAF0  TcpLen: 20
+[Xref => http://sslbl.abuse.ch]
+
+[**] [1:2023476:3] ET TROJAN ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex) [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+01/29-05:56:26.108121 216.239.94.252:443 -> 172.17.8.109:49232
+TCP TTL:128 TOS:0x0 ID:42429 IpLen:20 DgmLen:1061
+***AP*** Seq: 0xEC67A1C  Ack: 0x611F6AC2  Win: 0xFAF0  TcpLen: 20
+[Xref => http://sslbl.abuse.ch]
+
+[**] [1:2023476:3] ET TROJAN ABUSE.CH SSL Blacklist Malicious SSL certificate detected (Dridex) [**]
+[Classification: A Network Trojan was detected] [Priority: 1] 
+01/29-05:56:38.900326 216.239.94.252:443 -> 172.17.8.109:49234
+TCP TTL:128 TOS:0x0 ID:42444 IpLen:20 DgmLen:1061
+***AP*** Seq: 0x76AB2A0A  Ack: 0xAB9823B1  Win: 0xFAF0  TcpLen: 20
+[Xref => http://sslbl.abuse.ch]
+
